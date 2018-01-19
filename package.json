@@ -1,0 +1,20 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "matches user survey input to find most compatible friend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asehlers/FriendFinder.git"
+  },
+  "author": "andrew ehlers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asehlers/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/asehlers/FriendFinder#readme"
+}
