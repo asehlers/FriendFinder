@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder</title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      
+      <h1 class="text-center"><span class="glyphicon glyphicon-earphone"></span> Surver Entry</h1>
+      <h3 class="text-center"> Enter your information</h3>
+      <hr>
+      <div class="text-center">
+<!--       <a href="/home"><button type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-list-alt"></span> View Tables</button></a> -->
+      <a href="/"><button type="button" class="btn  btn-lg"><span class="glyphicon glyphicon-home"></span></button></a>
+    </div>
+      </div>
+    <div class="row">
+
+      <div class="col-lg-12">
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong>Survey input</strong></h3>
+          </div>
+          <div class="panel-body">
+            <form method="POST" role="form">
+
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+
+              <div class="form-group">
+                <label for="phoneNumber">Photo Link</label>
+                <input type="text" class="form-control" id="photo">
+              </div>
+              
+              <div>
+                <p>Please enter a value from 1, strongly disagree, on the left to 5, strongly agree, on the right</p>
+              </div>
+
+              <div class="form-group">
+                <label for="winter">You like winter</label>
+                <input type="range" min="1" max="5" list="tickmarks" class="form-control" id="winter">
+                <datalist id="tickmarks">
+                  <option value="1" label="1">
+                  <option value="2" label="2">
+                  <option value="3" label="3">
+                  <option value="4" label="4">
+                  <option value="5" label="5">
+                </datalist>
+              </div>
+
+              <div class="form-group">
+                <label for="birthday">You hate birthdays</label>
+                <input type="range" min="1" max="5" list="tickmarks" class="form-control" id="birthday">
+                <datalist id="tickmarks">
+                  <option value="1" label="1">
+                  <option value="2" label="2">
+                  <option value="3" label="3">
+                  <option value="4" label="4">
+                  <option value="5" label="5">
+                </datalist>
+              </div>
+
+              <div class="form-group">
+                <label for="trump">You support Trump</label>
+                <input type="range" min="1" max="5" list="tickmarks" class="form-control" id="trump">
+                <datalist id="tickmarks">
+                  <option value="1" label="1">
+                  <option value="2" label="2">
+                  <option value="3" label="3">
+                  <option value="4" label="4">
+                  <option value="5" label="5">
+                </datalist>
+              </div>
+
+              <div class="form-group">
+                <label for="solitude">You like solitude</label>
+                <input type="range" min="1" max="5" list="tickmarks" class="form-control" id="solitude">
+                <datalist id="tickmarks">
+                  <option value="1" label="1">
+                  <option value="2" label="2">
+                  <option value="3" label="3">
+                  <option value="4" label="4">
+                  <option value="5" label="5">
+                </datalist>
+              </div>
+
+              <div class="form-group">
+                <label for="outdoors">You like the outdoors</label>
+                <input type="range" min="1" max="5" list="tickmarks" class="form-control" id="outdoors">
+                <datalist id="tickmarks">
+                  <option value="1" label="1">
+                  <option value="2" label="2">
+                  <option value="3" label="3">
+                  <option value="4" label="4">
+                  <option value="5" label="5">
+                </datalist>
+              </div>
+
+              <div class="form-group">
+                <label for="tech">You like technology</label>
+                <input type="range" min="1" max="5" list="tickmarks" class="form-control" id="tech">
+                <datalist id="tickmarks">
+                  <option value="1" label="1">
+                  <option value="2" label="2">
+                  <option value="3" label="3">
+                  <option value="4" label="4">
+                  <option value="5" label="5">
+                </datalist>
+              </div>
+
+              <div class="form-group">
+                <label for="pizza">Pizza is one of your favorites</label>
+                <input type="range" min="1" max="5" list="tickmarks" class="form-control" id="pizza">
+                <datalist id="tickmarks">
+                  <option value="1" label="1">
+                  <option value="2" label="2">
+                  <option value="3" label="3">
+                  <option value="4" label="4">
+                  <option value="5" label="5">
+                </datalist>
+              </div>
+
+              <div class="form-group">
+                <label for="travel">You want to travel internationally</label>
+                <input type="range" min="1" max="5" list="tickmarks" class="form-control" id="travel">
+                <datalist id="tickmarks">
+                  <option value="1" label="1">
+                  <option value="2" label="2">
+                  <option value="3" label="3">
+                  <option value="4" label="4">
+                  <option value="5" label="5">
+                </datalist>
+              </div>
+
+              <div class="form-group">
+                <label for="nikelback">You enjoy listening to nikelback</label>
+                <input type="range" min="1" max="5" list="tickmarks" class="form-control" id="nikelback">
+                <datalist id="tickmarks">
+                  <option value="1" label="1">
+                  <option value="2" label="2">
+                  <option value="3" label="3">
+                  <option value="4" label="4">
+                  <option value="5" label="5">
+                </datalist>
+              </div>
+
+              <div class="form-group">
+                <label for="cthulu">All hail Cthulu!</label>
+                <input type="range" min="1" max="5" list="tickmarks" class="form-control" id="cthulu">
+                <datalist id="tickmarks">
+                  <option value="1" label="1">
+                  <option value="2" label="2">
+                  <option value="3" label="3">
+                  <option value="4" label="4">
+                  <option value="5" label="5">
+                </datalist>
+              </div>
+              <!-- <div class="form-group">
+                <label for="uniqueID">Unique ID</label>
+                <input type="text" class="form-control" id="uniqueID">
+              </div> -->
+
+            </form>
+            <br>
+            <div class="text-right">
+              <button type="submit" class="btn btn-primary btn-md" id="add-btn"><span class="glyphicon"></span> Submit</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row" id="output">
+    </div>
+       <footer>
+          <a href="/api/friends"> API Surveys</a>
+        </footer>
+  </div>
+ 
+  <script type="text/javascript">
+    // Question: What does this code do?
+    $("#add-btn").on("click", function(event) {
+      event.preventDefault();
+      var scoreArray = [];
+      scoreArray.push(parseInt($("#cthulu").val()));
+      scoreArray.push(parseInt($("#birthday").val()));
+      scoreArray.push(parseInt($("#trump").val()));
+      scoreArray.push(parseInt($("#solitude").val()));
+      scoreArray.push(parseInt($("#outdoors").val()));
+      scoreArray.push(parseInt($("#tech").val()));
+      scoreArray.push(parseInt($("#pizza").val()));
+      scoreArray.push(parseInt($("#travel").val()));
+      scoreArray.push(parseInt($("#nikelback").val()));
+      scoreArray.push(parseInt($("#cthulu").val()));
+      var newSurvey= {
+        name: $("#name").val().trim(),
+        photo: $("#photo").val().trim(),
+        scores: scoreArray
+        /*uniqueID: $("#uniqueID").val().trim()*/
+      };
+      console.log("current output" + newSurvey.scores);
+
+
+      $.post("/api/friends", newSurvey)
+      .then(function(data) {
+        // console.log("test");
+        // console.log(data);
+        /*alert("Your survey was added!!!");*/
+        $("#output").html(`<h2> Your new Friend!</h2><h4> ${data.name} </h4><img src="${data.photo}" alt="friend picture">`);
+      });
+
+    });
+  </script>
+
+</body>
+</html>
